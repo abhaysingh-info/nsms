@@ -1,0 +1,2 @@
+## checks if server is running
+GET http://localhost:4000/ping

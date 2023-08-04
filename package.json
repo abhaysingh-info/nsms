@@ -1,0 +1,26 @@
+{
+	"name": "dust",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"server:dev": "cd backend/  && npm run start:dev",
+		"ui:dev": "cd frontend/  && npm start",
+		"bot:dev": "cd bot/ && npm run dev",
+		"user-ui:dev": "cd discord-frontend/ && npm run dev"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"workspaces": [
+		"frontend",
+		"backend",
+		"@shared/*",
+		"discord-frontend",
+		"bot"
+	],
+	"devDependencies": {
+		"@tailwindcss/typography": "^0.5.9"
+	}
+}
